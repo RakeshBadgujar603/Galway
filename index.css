@@ -9,7 +9,6 @@
     height: 50px;
     line-height: 50px;
     padding: 0px 50px;
-    position: fixed;
     background-color: rgb(250, 244, 244);
     display: flex;
     flex-direction: row;
@@ -53,5 +52,45 @@ nav div a{
     margin-left: 180px;
 }
 
+.navbar{
+    height:60px;
+    background-color: rgb(61, 60, 60);
+    position: fixed;
+    
+}
 
+.ul2-navbar{
+    list-style: none;
+    display: flex;
+    margin:auto;
+
+}
+
+
+.ul2-navbar li{
+    padding:0 15px;
+     
+}
+
+.ul2-navbar li:hover{
+    background-color:#E91E63;
+}
+
+.ul2-navbar li a{
+    text-decoration: none;
+    color: white;
+    line-height: 60px;
+    
+}
+
+.li-nav2{
+    margin-right: 300px;
+    color: white;
+}
+
+.li-nav3{
+    margin-left: 250px;
+    color: white;
+    border-width: 1px solid white;
+}
 
